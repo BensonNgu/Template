@@ -1,6 +1,7 @@
 # License Template
 
 ## GNU General Public License v3.0
+```
 <one line to give the program's name and a brief idea of what it does.>
     Copyright (C) <year>  <name of author>
 
@@ -18,3 +19,4 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 Also add information on how to contact you by electronic and paper mail.
+```
