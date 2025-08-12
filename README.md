@@ -14,7 +14,8 @@ It contains ready-made files for common project needs, such as **README template
 
 ## 🧭 Navigation
 
-* [📜 License Guide](./src/license-guides/ChooseGoodLicense.md) – Learn about software licenses and decide which one best fits your project.
+* [<kbd>📜 License Guide</kbd>](./src/license-guides/ChooseGoodLicense.md) – Learn about software licenses and decide which one best fits your project.
+* [<kbd>README Templates</kbd>](./src/readme-templates/) – Pre-made README file formats for different project types, ready to customize.
 
 ## 🎯 Purpose
 
