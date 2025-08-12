@@ -4,6 +4,26 @@ Software licenses define the terms under which software can be used, modified, a
 
 ---
 
+## 📊 Quick Reference Table
+
+| License | Type | Commercial Use | Source Disclosure | Patent Protection | Example Scenario |
+|---------|------|----------------|-------------------|-------------------|------------------|
+| [Apache 2.0](#1-apache-license-20) | Permissive | ✅ | No | ✅ | Ideal for commercial projects that also want patent protection. |
+| [GPL-3.0](#2-gnu-general-public-license-v30-gpl-30) | Strong Copyleft | ✅ | Yes | ✅ | Use for open-source projects that must keep derivatives open. |
+| [MIT](#3-mit-license) | Permissive | ✅ | No | ❌ | Perfect for small tools/libraries you want freely reused. |
+| [BSD 2-Clause](#4-bsd-2-clause-license-simplified) | Permissive | ✅ | No | ❌ | Good for projects needing minimal legal restrictions. |
+| [BSD 3-Clause](#5-bsd-3-clause-license-revised-or-new) | Permissive | ✅ | No | ❌ | Like BSD 2-Clause, but prevents name endorsement. |
+| [Boost 1.0](#6-boost-software-license-10) | Permissive | ✅ | No | ❌ | Great for widely distributed libraries/frameworks. |
+| [CC0](#7-creative-commons-zero-v10-universal-cc0) | Public Domain | ✅ | No | ❌ | When you want to waive all rights entirely. |
+| [EPL 2.0](#8-eclipse-public-license-20) | Weak Copyleft | ✅ | Yes (modifications only) | ❌ | Common in enterprise-level open-source projects. |
+| [AGPL-3.0](#9-gnu-affero-general-public-license-v30-agpl-30) | Strong Copyleft (Network) | ✅ | Yes | ✅ | Web apps where users must access source code over a network. |
+| [GPL-2.0](#10-gnu-general-public-license-v20-gpl-20) | Strong Copyleft | ✅ | Yes | ❌ | Legacy GPL projects with strict open-source requirements. |
+| [LGPL-2.1](#11-gnu-lesser-general-public-license-v21-lgpl-21) | Weak Copyleft | ✅ | Yes (library only) | ❌ | Libraries that can be linked with proprietary code. |
+| [MPL-2.0](#12-mozilla-public-license-20-mpl-20) | Weak Copyleft | ✅ | Yes (file-level) | ❌ | Open-source components combined with proprietary code. |
+| [Unlicense](#13-the-unlicense) | Public Domain | ✅ | No | ❌ | For developers who want zero restrictions. |
+
+---
+
 ### 1. **Apache License 2.0**
 **Overview**:
 - **Permissions**: A permissive license, allowing users to use, modify, and distribute the software freely, including for commercial purposes.
@@ -14,6 +34,8 @@ Software licenses define the terms under which software can be used, modified, a
 - You can include the software in closed-source projects.
 - Contributors are protected from legal liability.
 - Patent protection is an important feature, as it prevents contributors from suing users for patent infringement based on the software.
+
+**Example Scenario**: You’re building a framework and want companies to adopt it without fear of patent litigation.
 
 ---
 
@@ -28,6 +50,8 @@ Software licenses define the terms under which software can be used, modified, a
 - It prohibits the incorporation of GPL-licensed code into proprietary software.
 - This license protects against "Tivoization" (modifying software but preventing users from running modified versions).
 
+**Example Scenario**: You want your project to stay open-source forever, even in modified forms.
+
 ---
 
 ### 3. **MIT License**
@@ -39,6 +63,8 @@ Software licenses define the terms under which software can be used, modified, a
 **Key Points**:
 - It is one of the most permissive licenses.
 - Often used when you want minimal restrictions on how your software is used.
+
+**Example Scenario**: You created a small JavaScript library and want the widest adoption possible.
 
 ---
 
@@ -52,6 +78,8 @@ Software licenses define the terms under which software can be used, modified, a
 - Suitable for projects that prioritize simplicity and minimal legal restrictions.
 - A simpler version of the BSD 3-Clause License (below).
 
+**Example Scenario**: Your university research team wants industry to adopt your code freely.
+
 ---
 
 ### 5. **BSD 3-Clause License ("Revised" or "New")**
@@ -62,6 +90,8 @@ Software licenses define the terms under which software can be used, modified, a
 
 **Key Points**:
 - Widely used in open-source projects, such as the FreeBSD operating system.
+
+**Example Scenario**: You want permissive licensing but don’t want your name used for commercial endorsement.
 
 ---
 
@@ -74,6 +104,8 @@ Software licenses define the terms under which software can be used, modified, a
 **Key Points**:
 - Ideal for libraries and frameworks that aim for maximum adoption.
 
+**Example Scenario**: You’re releasing a C++ library meant for integration into many products.
+
 ---
 
 ### 7. **Creative Commons Zero v1.0 Universal (CC0)**
@@ -84,6 +116,8 @@ Software licenses define the terms under which software can be used, modified, a
 
 **Key Points**:
 - Often used when you want to fully waive all rights over the software.
+
+**Example Scenario**: You want to share a dataset with absolutely no rights reserved.
 
 ---
 
@@ -96,6 +130,8 @@ Software licenses define the terms under which software can be used, modified, a
 **Key Points**:
 - Popular in enterprise and large-scale open-source projects.
 
+**Example Scenario**: A company shares a plugin framework but allows proprietary extensions.
+
 ---
 
 ### 9. **GNU Affero General Public License v3.0 (AGPL-3.0)**
@@ -106,6 +142,9 @@ Software licenses define the terms under which software can be used, modified, a
 
 **Key Points**:
 - Used in web-based software to ensure that users can access the source code even if they don’t run the software directly.
+
+
+**Example Scenario**: You’re building a collaborative web app and want users to have source access.
 
 ---
 
@@ -118,6 +157,8 @@ Software licenses define the terms under which software can be used, modified, a
 **Key Points**:
 - Many legacy open-source projects still use GPL-2.0, but new projects typically opt for GPL-3.0.
 
+**Example Scenario**: You’re maintaining a legacy open-source project under GPL-2.0.
+
 ---
 
 ### 11. **GNU Lesser General Public License v2.1 (LGPL-2.1)**
@@ -128,6 +169,8 @@ Software licenses define the terms under which software can be used, modified, a
 
 **Key Points**:
 - Allows for a mix of open-source and proprietary software.
+
+**Example Scenario**: You develop an encryption library you want used in both open and closed-source apps.
 
 ---
 
@@ -140,6 +183,8 @@ Software licenses define the terms under which software can be used, modified, a
 **Key Points**:
 - Used by large open-source projects like Mozilla Firefox.
 
+**Example Scenario**: You’re releasing a browser engine but want developers to build proprietary extensions.
+
 ---
 
 ### 13. **The Unlicense**
@@ -150,6 +195,8 @@ Software licenses define the terms under which software can be used, modified, a
 
 **Key Points**:
 - Suitable for developers who want to relinquish all control over their software.
+
+**Example Scenario**: You want to release a script without any legal strings attached.
 
 ---
 
